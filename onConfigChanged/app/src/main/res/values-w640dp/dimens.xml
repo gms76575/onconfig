@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_vertical_xxsmall">5dp</dimen>
+    <dimen name="margin_vertical_xsmall">10dp</dimen>
+    <dimen name="margin_vertical_small">20dp</dimen>
+    <dimen name="margin_vertical_common">30dp</dimen>
+    <dimen name="margin_vertical_large">40dp</dimen>
+    <dimen name="margin_vertical_xlarge">50dp</dimen>
+    <dimen name="margin_vertical_xxlarge">60dp</dimen>
+    <dimen name="margin_vertical_xxxlarge">90dp</dimen>
+    <dimen name="margin_vertical_xxxxlarge">105dp</dimen>
+    <dimen name="margin_horizontal_xxsmall">2dp</dimen>
+    <dimen name="margin_horizontal_xsmall">5dp</dimen>
+    <dimen name="margin_horizontal_small">10dp</dimen>
+    <dimen name="margin_horizontal_common">15dp</dimen>
+    <dimen name="margin_horizontal_large">20dp</dimen>
+    <dimen name="margin_horizontal_xlarge">25dp</dimen>
+    <dimen name="margin_horizontal_xxlarge">30dp</dimen>
+    <dimen name="margin_horizontal_xxxlarge">40dp</dimen>
+    <dimen name="margin_horizontal_xxxxlarge">50dp</dimen>
+
+    <dimen name="btn_height_common">72dp</dimen>
+
+    <!--text-->
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_commen">18sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_xsmall">14sp</dimen>
+</resources>

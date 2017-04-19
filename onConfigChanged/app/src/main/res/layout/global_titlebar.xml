@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/titlebar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titlebar_height"
+    android:background="@color/transparent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/titlebar_tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:drawableLeft="@drawable/arrow_left_back"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/titlebar_button_padding"
+        android:paddingRight="@dimen/titlebar_button_padding"
+        android:textColor="@color/default_text_color"
+        android:textSize="@dimen/titlebar_textsize"/>
+
+    <TextView
+        android:id="@+id/titlebar_tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/default_text_color"
+        android:textSize="@dimen/titlebar_textsize"
+        tools:text="标题"/>
+
+    <TextView
+        android:id="@+id/titlebar_tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/titlebar_button_padding"
+        android:paddingRight="@dimen/titlebar_button_padding"
+        android:textColor="@color/default_text_color"
+        android:textSize="@dimen/titlebar_textsize"
+        android:visibility="visible"
+        tools:text="操作"/>
+
+    <View
+        android:id="@+id/title_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider"
+        android:visibility="gone"/>
+</RelativeLayout>

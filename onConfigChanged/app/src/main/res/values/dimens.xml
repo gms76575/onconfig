@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="titlebar_height">45dp</dimen>
+    <dimen name="titlebar_textsize">17.3sp</dimen>
+    <dimen name="titlebar_button_padding">15dp</dimen>
+
+    <dimen name="margin_vertical_xxsmall">2dp</dimen>
+    <dimen name="margin_vertical_xsmall">5dp</dimen>
+    <dimen name="margin_vertical_small">10dp</dimen>
+    <dimen name="margin_vertical_common">15dp</dimen>
+    <dimen name="margin_vertical_large">20dp</dimen>
+    <dimen name="margin_vertical_xlarge">25dp</dimen>
+    <dimen name="margin_vertical_xxlarge">30dp</dimen>
+    <dimen name="margin_vertical_xxxlarge">45dp</dimen>
+    <dimen name="margin_vertical_xxxxlarge">52dp</dimen>
+    <dimen name="margin_horizontal_xxsmall">1dp</dimen>
+    <dimen name="margin_horizontal_xsmall">2dp</dimen>
+    <dimen name="margin_horizontal_small">5dp</dimen>
+    <dimen name="margin_horizontal_common">8dp</dimen>
+    <dimen name="margin_horizontal_large">10dp</dimen>
+    <dimen name="margin_horizontal_xlarge">12dp</dimen>
+    <dimen name="margin_horizontal_xxlarge">15dp</dimen>
+    <dimen name="margin_horizontal_xxxlarge">20dp</dimen>
+    <dimen name="margin_horizontal_xxxxlarge">25dp</dimen>
+
+    <dimen name="btn_height_common">36dp</dimen>
+
+
+    <!--text-->
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_commen">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_xsmall">10sp</dimen>
+</resources>

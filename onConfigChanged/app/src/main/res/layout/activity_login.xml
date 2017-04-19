@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/margin_vertical_xxxxlarge"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/user_code_holder"
+        app:errorEnabled="true"
+        android:layout_marginTop="@dimen/margin_vertical_xlarge"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginLeft="@dimen/margin_horizontal_small"
+        android:layout_marginRight="@dimen/margin_horizontal_small"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/et_user_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:saveEnabled="false"
+            android:maxLength="48"
+            android:digits="1234567890qwertyuiopasdfghjklzxcvbnm "
+            android:hint="用户名"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/password_holder"
+        app:errorEnabled="true"
+        android:layout_marginTop="@dimen/margin_vertical_xlarge"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginLeft="@dimen/margin_horizontal_small"
+        android:layout_marginRight="@dimen/margin_horizontal_small"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:saveEnabled="false"
+            android:maxLength="48"
+            android:digits="1234567890qwertyuiopasdfghjklzxcvbnm "
+            android:hint="密码"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="@dimen/margin_vertical_small"
+        android:layout_marginRight="@dimen/margin_horizontal_xxxxlarge">
+        <Button
+            android:id="@+id/btnForgetpwd"
+            android:text="忘记密码?"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_common"
+            android:layout_marginLeft="@dimen/margin_horizontal_large"
+            android:gravity="right|center_vertical"
+            android:textSize="@dimen/text_size_xsmall"
+            android:textColor="#8c8c8c"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_vertical_large"
+        android:layout_marginLeft="@dimen/margin_horizontal_xxxxlarge"
+        android:layout_marginRight="@dimen/margin_horizontal_xxxxlarge">
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="登录"
+            android:layout_width="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="@dimen/btn_height_common"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_shape_clickable"
+            android:textSize="@dimen/text_size_commen"
+            />
+    </LinearLayout>
+
+</LinearLayout>
